@@ -10,7 +10,7 @@ add_trusted_domain() {
 
 # Aggiungi sempre i domini fidati
 add_trusted_domain "nginx-server"
-add_trusted_domain "onlyofficee.hopto.org"
+add_trusted_domain "management.polis-net.it"
 
 # Installa e configura OnlyOffice
 docker exec -u www-data app-server php occ --no-warnings app:install onlyoffice
